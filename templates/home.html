@@ -1,0 +1,184 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+<!-- Slider -->
+{% include 'base/slider.html' %}
+
+<br>
+<br>
+<hr>
+<h3 > Why Choose Us?  </h3>
+<br/>
+<br/>
+  <div class="row bg-light">
+
+
+    <div class="col-lg-4" >
+      <img class="rounded-circle" src="{% static 'img/knowledge.jpg' %}" width="140" ;height="140">
+
+      <p>One Place to go from beginner to complete professional.</p>
+
+    </div><!-- /.col-lg-3 -->
+    <div class="col-lg-4">
+      <img class="rounded-circle mx-auto" src="{% static 'img/knowledge.jpg' %}" width="140" height="140">
+
+      <p>We work with many universities in order to improve our paltform.</p>
+
+    </div><!-- /.col-lg-4 -->
+    <div class="col-lg-4">
+      <img class="rounded-circle" src="{% static 'img/knowledge.jpg' %}" width="140" height="140">
+
+      <p>Lightweight website that runs quickly on any desktop device</p>
+
+    </div><!-- /.col-lg-4 -->
+
+  </div><!-- /.row -->
+  <br/>
+  <br/>
+  <br/>
+
+<hr>
+
+  <div class="container">
+    <h2>Courses created in collaboration with</h2>
+     <section class="customer-logos slider">
+        <div class="slide"><img src="https://pro100.lpnu.ua/ciot/pluginfile.php/2/course/section/1/200px-Nulp_logo_eng.jpg"></div>
+        <div class="slide"><img src="https://upload.wikimedia.org/wikipedia/commons/4/4a/NTUU_KPI_logo.png"></div>
+        <div class="slide"><img src="https://www.univ.kiev.ua/img/photo/gerb.jpg"></div>
+        <div class="slide"><img src="https://upload.wikimedia.org/wikipedia/uk/0/06/Logo-lnu-intrel.png"></div>
+        <div class="slide"><img src="https://img.freepik.com/free-psd/engraved-black-logo-mockup_125540-223.jpg?w=740&t=st=1684006300~exp=1684006900~hmac=86fceedcdfd1091519f3f3e9741619a4bdeb3ab57f2124a742be0f34b95c4740"></div>
+        <div class="slide"><img src="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/0011/9145/brand.gif?itok=A64vDdBP"></div>
+        <div class="slide"><img src="https://upload.wikimedia.org/wikipedia/commons/8/85/Kharkiv_Polytechnic_Institute.jpg"></div>
+        <div class="slide"><img src="https://media.licdn.com/dms/image/C4E0BAQGZXzpyfESqXA/company-logo_200_200/0/1646075285386?e=2147483647&v=beta&t=xwMjWLOXaSU8Msg8L7B3qhD1-JzsDc4kkSNrJDgSwX4"></div>
+        <div class="slide"><img src="https://habrastorage.org/getpro/moikrug/uploads/company/100/007/651/3/logo/medium_83b5009e040969ee7b60362ad7426573.jpeg"></div>
+     </section>
+
+
+  </div>
+
+<br>
+<br>
+<hr>
+
+<!-- Footer -->
+<footer class="page-footer font-small blue pt-4">
+
+  <!-- Footer Links -->
+  <div class="container-fluid text-center text-md-left">
+
+    <!-- Grid row -->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-6 mt-md-0 mt-3">
+
+        <!-- Content -->
+        <h5 class="text-uppercase">Contacs</h5>
+        <p>Contacs:<br> Adress: Someadress <br> Phone number : +38000000000</p>
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none pb-3">
+
+      <!-- Grid column -->
+      <div class="col-md-3 mb-md-0 mb-3">
+
+        <!-- Links -->
+        <h5 class="text-uppercase">Links</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="https://www.epam.com/">Epam</a>
+          </li>
+          <li>
+            <a href="https://lpnu.ua/">НУ «Львівська політехніка»</a>
+          </li>
+          <li>
+            <a href="https://www.mit.edu/">MIT</a>
+          </li>
+          <li>
+            <a href="https://www.kpi.ua/">КПІ</a>
+          </li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-3 mb-md-0 mb-3">
+
+        <!-- Links -->
+        <h5 class="text-uppercase">Links</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="https://www.softserveinc.com/uk-ua">Softserve</a>
+          </li>
+          <li>
+            <a href="#!">Your link could be here</a>
+          </li>
+          <li>
+            <a href="#!">Your link could be here</a>
+          </li>
+          <li>
+            <a href="#!">Your link could be here</a>
+          </li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2025 Copyright:
+    <a > Me</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+
+{% endblock content %}
+
+{% block script %}
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+{% endblock %}
+
+</script>}
+
+
+{% block domready %}
+
+$('.customer-logos').slick({
+       slidesToShow: 6,
+       slidesToScroll: 1,
+       autoplay: true,
+       autoplaySpeed: 1500,
+       arrows: false,
+       dots: false,
+       pauseOnHover: false,
+       responsive: [{
+           breakpoint: 768,
+           settings: {
+               slidesToShow: 4
+           }
+       }, {
+           breakpoint: 520,
+           settings: {
+               slidesToShow: 3
+           }
+       }]
+   });
+
+{% endblock %}
